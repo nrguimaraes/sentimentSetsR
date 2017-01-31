@@ -1,0 +1,15 @@
+Package: sentimentSetsR
+Type: Package
+Title: Sets of Sentiment Analysis Methods
+Version: 0.0.1
+Author: Nuno Ricardo Guimaraes
+Maintainer: Nuno Ricardo Guimaraes <nuno.r.guimaraes@inesctec.pt>
+Description: Sentiment analysis using different state of the art lexicons. The package has a simple
+    yet flexible structure that allows to analyse sentiment in text through a "direct match"
+    or "rule-based" method. In addition, it is also capable of analyzing texts using sentiment dictionaries
+    provided as input. 
+License: MIT + file LICENSE 
+Encoding: UTF-8
+LazyData: true
+Imports: plotrix (>= 3.6),
+    tm (>= 0.6)
